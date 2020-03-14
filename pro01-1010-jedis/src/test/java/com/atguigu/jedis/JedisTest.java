@@ -14,6 +14,11 @@ public class JedisTest {
     private int port = Protocol.DEFAULT_PORT;
 
     @Test
+    public void test001() {
+        System.out.println("hello git...");
+    }
+
+    @Test
     public void testJedisPool() {
         // 1.创建JedisPool对象
         JedisPool jedisPool = new JedisPool(ipAddress, port);
